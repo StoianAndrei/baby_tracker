@@ -10,3 +10,19 @@ Hello, Website!
 For more information about simple R Markdown websites, please read the documentation at https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html.
 
 Please also note that simple R Markdown sites are _not_ based on **blogdown**. They are probably good for websites with only a few Rmd documents. For larger-scale and more sophisticated websites (such as blogs), you may want to use **blogdown** instead: https://github.com/rstudio/blogdown.
+
+
+# Data structure
+
+At the start of every data project one must keep a certain structure. Why you ask? Is it worth it for every project? How big is a project that is worth keeping to a framework? 
+All of this questions I had them as well and more. Coming from an excel 
+
+
+```{r}
+dir.data <- "data"
+
+list.files(dir.data)
+
+
+```
+
